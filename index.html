@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font awsome for icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font for font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Nerko+One&family=Pacifico&family=Playwrite+CU:wght@100..400&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap"
+        rel="stylesheet">
+        <!-- animation link -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <!-- aos animation scroll -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="container">
+        <!--------------------------------------- navbar --------------------------------------------------------->
+        <nav>
+            <!-- logo -->
+            <img src="./image/loggg.png" alt="no image" class="logo">
+            <!-- links -->
+            <ul>
+                <li class="list-item"><a href="#home" class="list">Home</a></li>
+                <li class="list-item"><a href="#about" class="list">About</a></li>
+                <li class="list-item"><a href="#skill" class="list">Skills</a></li>
+                <li class="list-item"><a href="#contact" class="list">Contact</a></li>
+            </ul>
+        </nav>
+        <!---------------------------------------- home ---------------------------------------------------------->
+        <!-- home content -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__swing" id="username">I'm Maria <span id="lname">Joe</span></h1>
+                <p id="user-details">This is my official protfolio website to describe all <br>
+                    Detail and work experience in Web Development</p>
+                <a id="download" href="./Mohamed Favas - Software engineering.docx">Download </a>
+            </div>
+            <!-- home image -->
+            <div class="home-image">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./image/port2.png" alt="">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./image/port.png" alt="">
+            </div>
+        </section>
+        <!------------------------------------------ about---------------------------------------------- -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 id="mainhead">About Me</h2>
+                <span id="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="fade-right" class="aboutimage">
+                    <img class="img1"
+                        src="https://static.vecteezy.com/system/resources/previews/023/798/845/non_2x/self-love-an-love-yor-body-concept-the-girl-hugs-herself-and-presses-her-heart-to-her-with-the-words-i-love-myself-vector.jpg"
+                        alt="">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam atque illum, excepturi sed error
+                        molestiae facere, dolore deleniti labore animi consequatur tenetur obcaecati ea a earum,
+                        aspernatur maiores corrupti quibusdam.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="Information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+
+                            <span>Maria Joe</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+
+                            <span>3457382990</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+
+                            <span>Mariajoe@gmail.com </span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- --------------------------------------SKILLS ------------------------------------------------------------------>
+        <section id="skill">
+            <div class="sectionhead">
+                <h2 id="mainhead">Skills</h2>
+                <span id="subhead">My skills</span>
+            </div>
+            <div class="skillcontent">
+                <!--- Progress Bar --------->
+                <div class="progressbars">
+                    <div class="Bars">
+                        <h3 class="barmainhead">HTML</h3>
+                        <span class="barpercentage">89%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="basebar htmlbar"></div>
+                    </div>
+                    <div class="Bars">
+                        <h3 class="barmainhead">CSS</h3>
+                        <span class="barpercentage">82%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="basebar cssbar"></div>
+                    </div>
+                    <div class="Bars">
+                        <h3 class="barmainhead">JS</h3>
+                        <span class="barpercentage">70%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="basebar jsbar"></div>
+                    </div>
+                    <div class="Bars">
+                        <h3 class="barmainhead">REACT</h3>
+                        <span class="barpercentage">92%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="basebar reactbar"></div>
+                    </div>
+
+                </div>
+                <div data-aos="fade-left" class="skillimage">
+                    <img class="myskill" src="./image/GEN-Palmer-Skills-Atrophy-1290x860-1.jpg" alt="no image">
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 id="mainhead">Contact</h2>
+                <span id="subhead">My Contact</span>
+            </div>
+            <div class="iconcollection">
+                <!-- linked in -->
+                 <div class="icon"><a href="https://www.linkedin.com/in/mohamed-favas-vp-b63794260/" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a></div>
+                <!-- github -->
+                <div class="icon"><a href="https://www.linkedin.com/in/mohamed-favas-vp-b63794260/" target="_blank"><i class="fa-brands fa-github brands"></i></a></div>
+                 <!-- facebook -->
+                 <div class="icon"><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f brands"></i></a></div>
+
+                <!-- twitter -->
+                <div class="icon"><a href="https://x.com/?lang=en" target="_blank" ><i class="fa-brands fa-twitter brands"></i></a></div>
+                <!-- instagram -->
+                <div class="icon"><a href="https://www.instagram.com/f_avs__/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a></div>
+                <!-- mail -->
+                <div class="icon"><a href="favasfazz1001@gmail.com" target="_blank"><i class="fa-solid fa-envelope brands"></i></a></div>
+            </div>
+
+        </section>
+        <!-- footer -->
+         <footer>
+            <p id="copyright">&copy; My portfolio website -june 2024 , All RightRiserved to &reg; Maria Joe</p>
+            <div class="icon uparrow"><a href="#container"><i class="fa-solid fa-angle-up brands"></i></a></div>
+         </footer>
+          
+
+    </div>
+
+</body>
+<!-- /aos script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+  </script>
+
+</html>
